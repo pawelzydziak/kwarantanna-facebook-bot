@@ -16,7 +16,7 @@ client = facebook.GraphAPI(access_token=access_page, version="3.0")
 current_week_day = datetime.datetime.today().weekday()
 # print(week_days[current_week_day])
 
-how_many_days = datetime.date.today() - datetime.date(2020, 3, 12)
+how_many_days = datetime.date.today() - datetime.date(2020, 3, 13)
 # print(how_many_days.days)
 
 msg = "[PYTHON BOT TEST] " + "#" + str(how_many_days.days) + ":" + " Dziś jest " + str(week_days[current_week_day]) + "."
